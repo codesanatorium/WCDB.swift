@@ -87,8 +87,8 @@ class RepairTests: BaseTestCase {
             let size = Int(self.pageSize)
             let data = Data(count: size)
             let fd = open(database.path, O_RDWR)
-            _ = data.withUnsafeBytes({ (bytes) in
-                write(fd, bytes, size)
+            data.withUnsafeBytes({ (bytes: UnsafeRawBufferPointer) -> Void in
+                write(fd, bytes.baseAddress, size)
             })
             close(fd)
         }

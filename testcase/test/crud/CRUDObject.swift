@@ -22,7 +22,7 @@ import Foundation
 import WCDBSwift
 
 class CRUDObjectBase: Named, Hashable, Comparable, CustomDebugStringConvertible {
-    var hashValue: Int {
+    func hash(into hasher: inout Hasher) {
         fatalError()
     }
 
