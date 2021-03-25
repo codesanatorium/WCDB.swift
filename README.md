@@ -1,11 +1,11 @@
 # WCDBSwift
 
-[![CI Status](https://img.shields.io/travis/codesanatorium/WCDB.Swift.svg?style=flat)](https://travis-ci.org/codesanatorium/WCDB.swift)
+[![CI Status](https://img.shields.io/travis/codesanatorium/WCDB.Swift.svg?style=flat)](https://travis-ci.com/github/codesanatorium/WCDB.swift)
 [![Version](https://img.shields.io/cocoapods/v/WCDBSwift.svg?style=flat)](https://cocoapods.org/pods/WCDBSwift)
 [![License](https://img.shields.io/cocoapods/l/WCDBSwift.svg?style=flat)](https://cocoapods.org/pods/WCDBSwift)
 [![Platform](https://img.shields.io/cocoapods/p/WCDBSwift.svg?style=flat)](https://cocoapods.org/pods/WCDBSwift)
 
-This is the copy of [wcdb v1.0.8.2](https://github.com/Tencent/wcdb/tree/v1.0.8.2/repair).
+This is the copy of [wcdb v1.0.8.2](https://github.com/Tencent/wcdb/tree/v1.0.8.2).
 
 WCDB is an efficient, complete, easy-to-use mobile database framework used in the WeChat application. It can be a replacement for Core Data, SQLite & FMDB.
 
