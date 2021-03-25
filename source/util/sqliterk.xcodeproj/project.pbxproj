@@ -125,7 +125,7 @@
 				233032571FB9437F00101373 /* sqliterk_values.h */,
 			);
 			name = repair;
-			path = ../../../repair;
+			path = ../../repair/repair;
 			sourceTree = "<group>";
 		};
 		2330326B1FB9452800101373 /* Frameworks */ = {
@@ -432,9 +432,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/../../../repair/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../../repair/repair/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tencent.sqliterk.swift;
 				PRODUCT_MODULE_NAME = sqliterk;
@@ -453,9 +453,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/../../../repair/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../../repair/repair/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tencent.sqliterk.swift;
 				PRODUCT_MODULE_NAME = sqliterk;
@@ -546,9 +546,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/../../../repair/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../../repair/repair/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tencent.sqliterk.swift;
 				PRODUCT_MODULE_NAME = sqliterk;

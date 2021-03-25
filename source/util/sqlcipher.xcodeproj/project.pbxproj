@@ -430,7 +430,7 @@
 				232DA3D71FB082FA0075F021 /* sqliteicu.h */,
 			);
 			name = src;
-			path = ../../../sqlcipher/src;
+			path = ../../sqlcipher/src;
 			sourceTree = "<group>";
 		};
 		23121C061E6FFA890012B45E /* Frameworks */ = {
@@ -451,7 +451,7 @@
 				239D64E61ECE9FE8008F5B61 /* Info.plist */,
 			);
 			name = macosx;
-			path = ../../../sqlcipher/macosx;
+			path = ../../sqlcipher/macosx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -832,9 +832,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/../../../sqlcipher/macosx/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../../sqlcipher/macosx/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = "-Wno-shorten-64-to-32";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tencent.sqlcipher.swift;
@@ -855,9 +855,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/../../../sqlcipher/macosx/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../../sqlcipher/macosx/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = "-Wno-shorten-64-to-32";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tencent.sqlcipher.swift;
@@ -968,9 +968,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/../../../sqlcipher/macosx/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../../sqlcipher/macosx/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = "-Wno-shorten-64-to-32";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tencent.sqlcipher.swift;

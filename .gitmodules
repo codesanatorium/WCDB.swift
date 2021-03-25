@@ -1,0 +1,6 @@
+[submodule "repair"]
+	path = repair
+	url = https://github.com/wujianguo/SQLiteRepair.git
+[submodule "sqlcipher"]
+	path = sqlcipher
+	url = https://github.com/wujianguo/sqlcipher.git
